@@ -656,10 +656,8 @@ var Geosuggest = function (_React$Component) {
           label: _this.state.userInput
         };
       }
-
       _this.setState({
-        isSuggestsHidden: true,
-        userInput: suggest.label
+        isSuggestsHidden: true
       });
 
       if (suggest.location) {
