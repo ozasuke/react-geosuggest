@@ -339,7 +339,6 @@ class Geosuggest extends React.Component {
 
     this.setState({
       isSuggestsHidden: true,
-      userInput: suggest.label
     });
 
     if (suggest.location) {
